@@ -13,3 +13,5 @@ test-results/
 *.pem
 *.key
 research/six-seva-audio-pack/audio/
+
+.vercel
