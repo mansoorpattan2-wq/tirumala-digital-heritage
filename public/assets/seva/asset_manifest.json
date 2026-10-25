@@ -1,0 +1,165 @@
+{
+  "provenance": "Locally prepared from the supplied collage and screenshots. The new ZIP and its README_FOR_CODEX.md/asset_manifest.json were not present at integration time.",
+  "notice": "Artistic imagery, not official TTD photography or verified architecture.",
+  "assets": [
+    {
+      "id": "suprabhatam-card",
+      "src": "/assets/seva/suprabhatam-card.webp",
+      "width": 219,
+      "height": 230,
+      "origin": "Cropped from supplied collage; generated lettering excluded",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "thomala-card",
+      "src": "/assets/seva/thomala-card.webp",
+      "width": 219,
+      "height": 230,
+      "origin": "Cropped from supplied collage; generated lettering excluded",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "archana-card",
+      "src": "/assets/seva/archana-card.webp",
+      "width": 219,
+      "height": 230,
+      "origin": "Cropped from supplied collage; generated lettering excluded",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "kalyanotsavam-card",
+      "src": "/assets/seva/kalyanotsavam-card.webp",
+      "width": 219,
+      "height": 230,
+      "origin": "Cropped from supplied collage; generated lettering excluded",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "abhishekam-card",
+      "src": "/assets/seva/abhishekam-card.webp",
+      "width": 219,
+      "height": 230,
+      "origin": "Cropped from supplied collage; generated lettering excluded",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "deepalankara-card",
+      "src": "/assets/seva/deepalankara-card.webp",
+      "width": 219,
+      "height": 230,
+      "origin": "Cropped from supplied collage; generated lettering excluded",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "brahmotsavam-card",
+      "src": "/assets/seva/brahmotsavam-card.webp",
+      "width": 216,
+      "height": 230,
+      "origin": "Cropped from supplied collage; generated lettering excluded",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "temple-night",
+      "src": "/assets/seva/temple-night.webp",
+      "width": 199,
+      "height": 150,
+      "origin": "Supplied collage crop",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "gopuram",
+      "src": "/assets/seva/gopuram.webp",
+      "width": 206,
+      "height": 150,
+      "origin": "Supplied collage crop",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "corridor",
+      "src": "/assets/seva/corridor.webp",
+      "width": 213,
+      "height": 150,
+      "origin": "Supplied collage crop",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "lamps",
+      "src": "/assets/seva/lamps.webp",
+      "width": 130,
+      "height": 135,
+      "origin": "Supplied collage crop",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "flowers",
+      "src": "/assets/seva/flowers.webp",
+      "width": 156,
+      "height": 135,
+      "origin": "Supplied collage crop",
+      "kind": "AI illustration"
+    },
+    {
+      "id": "sunrise",
+      "src": "/assets/seva/sunrise-1280.webp",
+      "small": "/assets/seva/sunrise-640.webp",
+      "width": 930,
+      "height": 606,
+      "origin": "Supplied screenshot 144525",
+      "kind": "Supplied devotional imagery; unverified documentation"
+    },
+    {
+      "id": "devotional-portrait",
+      "src": "/assets/seva/devotional-portrait-1280.webp",
+      "small": "/assets/seva/devotional-portrait-640.webp",
+      "width": 830,
+      "height": 615,
+      "origin": "Supplied screenshot 144539",
+      "kind": "Supplied devotional imagery; unverified documentation"
+    },
+    {
+      "id": "golden-corridor",
+      "src": "/assets/seva/golden-corridor-1280.webp",
+      "small": "/assets/seva/golden-corridor-640.webp",
+      "width": 620,
+      "height": 626,
+      "origin": "Supplied screenshot 144555",
+      "kind": "Supplied devotional imagery; unverified documentation"
+    },
+    {
+      "id": "golden-tower",
+      "src": "/assets/seva/golden-tower-1280.webp",
+      "small": "/assets/seva/golden-tower-640.webp",
+      "width": 940,
+      "height": 622,
+      "origin": "Supplied screenshot 144609",
+      "kind": "Supplied devotional imagery; unverified documentation"
+    },
+    {
+      "id": "morning-arrival",
+      "src": "/assets/seva/morning-arrival-1280.webp",
+      "small": "/assets/seva/morning-arrival-640.webp",
+      "width": 622,
+      "height": 622,
+      "origin": "Supplied screenshot 144621",
+      "kind": "Supplied devotional imagery; unverified documentation"
+    },
+    {
+      "id": "lamp-hall",
+      "src": "/assets/seva/lamp-hall-1280.webp",
+      "small": "/assets/seva/lamp-hall-640.webp",
+      "width": 1107,
+      "height": 627,
+      "origin": "Supplied screenshot 144641",
+      "kind": "Supplied devotional imagery; unverified documentation"
+    },
+    {
+      "id": "harathi-portrait",
+      "src": "/assets/seva/harathi-portrait-1280.webp",
+      "small": "/assets/seva/harathi-portrait-640.webp",
+      "width": 466,
+      "height": 613,
+      "origin": "Supplied screenshot 144655",
+      "kind": "Supplied devotional imagery; unverified documentation"
+    }
+  ]
+}

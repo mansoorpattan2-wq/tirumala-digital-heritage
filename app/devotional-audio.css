@@ -1,0 +1,21 @@
+.devotional-audio{position:fixed;right:max(22px,env(safe-area-inset-right));bottom:calc(var(--audio-bottom,20px) + env(safe-area-inset-bottom));z-index:100;color:#eedec5;font-family:var(--sans);animation:audio-appear .35s ease-out}
+.audio-launcher{display:flex;align-items:center;gap:0;min-height:48px;background:#17110ee8;border:1px solid #b18a4e77;border-radius:28px;box-shadow:0 5px 25px #0006,0 0 18px #c99d3d0d;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.devotional-audio button{background:transparent;color:#d8b981;border:0;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:10px;transition:color .2s,background .2s}
+.devotional-audio button:hover:enabled{color:#fff0d5;background:#c49c5317}.devotional-audio button:disabled{cursor:default;opacity:.4}
+.devotional-audio .audio-speaker{width:48px;height:48px;border-radius:50%;position:relative}
+.devotional-audio .audio-expand{min-width:30px;width:30px;padding:5px;border-radius:0 25px 25px 0;border-left:1px solid #b18a4e33}.audio-expand[aria-expanded=true] svg{transform:rotate(180deg)}
+.audio-wave{position:absolute;inset:7px;border:1px solid #d1a45e;border-radius:50%;opacity:0;pointer-events:none}.devotional-audio[data-playing=true] .audio-wave{animation:audio-wave 2.4s ease-out infinite}
+.devotional-audio .audio-enable{font-size:10px;padding:8px 8px 8px 0;white-space:nowrap}
+.devotional-audio-panel{position:absolute;bottom:calc(100% + 12px);right:0;width:min(310px,calc(100vw - 32px));max-height:min(440px,calc(100svh - var(--audio-bottom,20px) - 90px));overflow-y:auto;overscroll-behavior:contain;padding:16px 18px 14px;background:#1b140ff5;border:1px solid #b18a4e66;border-radius:5px;box-shadow:0 12px 45px #0008;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);animation:audio-appear .18s ease-out}
+.audio-panel-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;color:#b89b71;font-size:8px;letter-spacing:1.8px}.audio-panel-heading button{margin:-10px -12px -6px 0}
+.audio-now-label{font-size:7px;color:#a88f6e;letter-spacing:1.4px;margin:18px 0 7px}.devotional-audio-panel h2{font-size:26px;line-height:1.15;letter-spacing:-.3px;color:#f1ddba}
+.audio-message{font-size:10px;line-height:1.7;color:#b9a68b;margin:9px 0;min-height:34px}
+.audio-transport{display:flex;justify-content:center;align-items:center;gap:18px;padding:12px 0 16px}.devotional-audio .audio-play{border:1px solid #b18a4e66;border-radius:50%;width:48px;height:48px;color:#f2d59d}
+.audio-volume{display:flex;align-items:center;gap:8px;border-top:1px solid #b18a4e33;padding-top:8px}.audio-volume>button{margin-left:-10px}.audio-volume input{accent-color:#d1ac70;min-width:0;width:100%;height:44px;cursor:pointer}.audio-volume>span{font-size:9px;font-variant-numeric:tabular-nums;color:#bda88a;min-width:30px}
+.audio-track-list{padding:10px 0 0;margin:0;list-style:none;border-top:1px solid #b18a4e26}.audio-track-list li{font-size:10px;color:#cebb9c;display:flex;justify-content:space-between;gap:12px;margin:8px 0}.audio-track-list li>span{font-size:8px;color:#a89477;white-space:nowrap}
+.shrine-page:has(.devotional-audio){padding-bottom:100px}
+@keyframes audio-appear{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes audio-wave{0%{opacity:0;transform:scale(.75)}20%{opacity:.45}100%{opacity:0;transform:scale(1.35)}}
+@media(max-width:760px){.devotional-audio{right:max(14px,env(safe-area-inset-right))}.devotional-audio-panel{padding:14px 16px}.audio-launcher{min-height:46px}.devotional-audio .audio-speaker{height:46px;width:46px}.devotional-audio .audio-enable{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.devotional-audio,.devotional-audio-panel,.audio-wave{animation:none!important}.devotional-audio button{transition:none}}
+@media(forced-colors:active){.audio-launcher,.devotional-audio-panel{background:Canvas;border-color:CanvasText}.devotional-audio button,.devotional-audio-panel h2{color:CanvasText}}

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "/images/temple-day.jpg",
+    "title": "Tirumala temple exterior",
+    "author": "Nikhil B/Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Tirumala_090615.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "date": "2015-06-09",
+    "changes": "Original photograph retained; optimized sibling resized to a maximum width of 1800 pixels and encoded as WebP; may be responsively cropped and overlaid with color in the website. Adapted image presentation remains under CC BY-SA 4.0.",
+    "width": 4096,
+    "height": 2731,
+    "alt": "White entrance gopuram of the Tirumala temple against green hills, with the golden vimanam visible behind it.",
+    "optimizedFile": "/images/temple-day.webp"
+  },
+  {
+    "file": "/images/temple-night.jpg",
+    "title": "Thirupati Thirumala Temple at Night",
+    "author": "Iamvivekkj",
+    "source": "https://commons.wikimedia.org/wiki/File:Thirupati_Thirumala_Temple_at_Night.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Thirupati_Thirumala_Temple_at_Night.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "date": "2024-09-17",
+    "changes": "Original photograph retained; optimized sibling resized to a maximum width of 1800 pixels and encoded as WebP; may be responsively cropped and overlaid with color in the website.",
+    "width": 4080,
+    "height": 1836,
+    "alt": "The Tirumala temple exterior illuminated with red, green and golden decorative lights at night.",
+    "optimizedFile": "/images/temple-night.webp"
+  },
+  {
+    "file": "/images/temple-midnight.jpg",
+    "title": "Tirumala Tirupati Devasthanam",
+    "author": "Karizmatication",
+    "source": "https://commons.wikimedia.org/wiki/File:Tirumala_Tirupati_Devasthanam.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tirumala_Tirupati_Devasthanam.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "date": "2025-06-18",
+    "changes": "Original photograph retained; optimized sibling resized to a maximum width of 1800 pixels and encoded as WebP; may be responsively cropped and overlaid with color in the website. Adapted image presentation remains under CC BY-SA 4.0.",
+    "width": 3264,
+    "height": 2448,
+    "alt": "Pilgrims in front of the white Tirumala temple entrance tower under a dark night sky.",
+    "optimizedFile": "/images/temple-midnight.webp"
+  },
+  {
+    "file": "/images/hills.jpg",
+    "title": "Hills Tirumala",
+    "author": "Shravan Kamath94",
+    "source": "https://commons.wikimedia.org/wiki/File:Hills_Tirumala.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Hills_Tirumala.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "date": "2015-09-09",
+    "changes": "Original photograph retained; optimized sibling resized to a maximum width of 1800 pixels and encoded as WebP; may be responsively cropped and overlaid with color in the website. Adapted image presentation remains under CC BY-SA 4.0.",
+    "width": 3072,
+    "height": 1728,
+    "alt": "Forested slopes and rocky ridges of the Tirumala hills extending toward a distant valley.",
+    "optimizedFile": "/images/hills.webp"
+  }
+]

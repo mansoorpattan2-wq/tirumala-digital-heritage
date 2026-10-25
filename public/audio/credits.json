@@ -1,0 +1,28 @@
+{
+  "tracks": [
+    {
+      "id": "venkateswara-stotram",
+      "title": "Venkateswara Stotram",
+      "file": "venkateswara-stotram.mp3",
+      "reference": "https://www.youtube.com/watch?v=_yhBlE3D9cc",
+      "referenceTitle": "Sri Venkatesha Stotram - Invoking the Lord's Mercy",
+      "referenceVerified": true,
+      "approved": true,
+      "source": "Project owner supplied: Kamalakucha - Sri Venkateswara Stotram.mp3.mpeg, 25 October 2026",
+      "license": "User authorized inclusion in this project. Independent recording redistribution license not verified.",
+      "recordingMatch": "Mapped by supplied Stotram filename; not verified as the identical YouTube recording."
+    },
+    {
+      "id": "veyi-namala-vada",
+      "title": "Veyi Namala Vada",
+      "file": "veyi-namala-vada.mp3",
+      "reference": "https://www.youtube.com/watch?v=l1pezLiSbZY",
+      "referenceTitle": null,
+      "referenceVerified": false,
+      "approved": true,
+      "source": "Project owner supplied: WhatsApp Audio 2026-10-25 at 2.15.37 PM.mpeg, 25 October 2026",
+      "license": "User authorized inclusion in this project. Independent recording redistribution license not verified.",
+      "recordingMatch": "Assigned to the requested second playlist slot from the two supplied files; WhatsApp filename does not establish song identity."
+    }
+  ]
+}

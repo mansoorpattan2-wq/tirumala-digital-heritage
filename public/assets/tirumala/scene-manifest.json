@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "imageType": "AI artistic reconstruction",
+  "notice": "Architecture and scenes may differ from the real site.",
+  "supports360": false,
+  "supportsFreeRoam3D": false,
+  "chapters": [
+    {
+      "id": "01-seven-hills-dawn",
+      "title": "Dawn at the foothills",
+      "src": "/assets/tirumala/01-seven-hills-dawn.webp",
+      "original": "/assets/tirumala/01-seven-hills-dawn.png",
+      "srcSet": "/assets/tirumala/01-seven-hills-dawn-640.webp 640w, /assets/tirumala/01-seven-hills-dawn-1280.webp 1280w, /assets/tirumala/01-seven-hills-dawn.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "objectPosition": "50% 45%",
+      "alt": "AI artistic reconstruction: dawn at the foothills, inspired by Tirumala.",
+      "optional": false,
+      "verifiedGeometry": false
+    },
+    {
+      "id": "02-alipiri-ascent",
+      "title": "Alipiri ascent",
+      "src": "/assets/tirumala/02-alipiri-ascent.webp",
+      "original": "/assets/tirumala/02-alipiri-ascent.png",
+      "srcSet": "/assets/tirumala/02-alipiri-ascent-640.webp 640w, /assets/tirumala/02-alipiri-ascent-1280.webp 1280w, /assets/tirumala/02-alipiri-ascent.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "objectPosition": "50% 45%",
+      "alt": "AI artistic reconstruction: alipiri ascent, inspired by Tirumala.",
+      "optional": false,
+      "verifiedGeometry": false
+    },
+    {
+      "id": "03-ghat-road",
+      "title": "The ghat road",
+      "src": "/assets/tirumala/03-ghat-road.webp",
+      "original": "/assets/tirumala/03-ghat-road.png",
+      "srcSet": "/assets/tirumala/03-ghat-road-640.webp 640w, /assets/tirumala/03-ghat-road-1280.webp 1280w, /assets/tirumala/03-ghat-road.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "objectPosition": "50% 45%",
+      "alt": "AI artistic reconstruction: the ghat road, inspired by Tirumala.",
+      "optional": false,
+      "verifiedGeometry": false
+    },
+    {
+      "id": "04-tirumala-arrival",
+      "title": "Arrival at Tirumala",
+      "src": "/assets/tirumala/04-tirumala-arrival.webp",
+      "original": "/assets/tirumala/04-tirumala-arrival.png",
+      "srcSet": "/assets/tirumala/04-tirumala-arrival-640.webp 640w, /assets/tirumala/04-tirumala-arrival-1280.webp 1280w, /assets/tirumala/04-tirumala-arrival.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "objectPosition": "50% 45%",
+      "alt": "AI artistic reconstruction: arrival at tirumala, inspired by Tirumala.",
+      "optional": false,
+      "verifiedGeometry": false
+    },
+    {
+      "id": "05-pushkarini",
+      "title": "Swami Pushkarini",
+      "src": "/assets/tirumala/05-pushkarini.webp",
+      "original": "/assets/tirumala/05-pushkarini.png",
+      "srcSet": "/assets/tirumala/05-pushkarini-640.webp 640w, /assets/tirumala/05-pushkarini-1280.webp 1280w, /assets/tirumala/05-pushkarini.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "objectPosition": "50% 45%",
+      "alt": "AI artistic reconstruction: swami pushkarini, inspired by Tirumala.",
+      "optional": false,
+      "verifiedGeometry": false
+    },
+    {
+      "id": "06-temple-day",
+      "title": "Temple entrance by day",
+      "src": "/assets/tirumala/06-temple-day.webp",
+      "original": "/assets/tirumala/06-temple-day.png",
+      "srcSet": "/assets/tirumala/06-temple-day-640.webp 640w, /assets/tirumala/06-temple-day-1280.webp 1280w, /assets/tirumala/06-temple-day.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "objectPosition": "50% 45%",
+      "alt": "AI artistic reconstruction: temple entrance by day, inspired by Tirumala.",
+      "optional": false,
+      "verifiedGeometry": false
+    },
+    {
+      "id": "07-temple-dusk",
+      "title": "Temple entrance at dusk",
+      "src": "/assets/tirumala/07-temple-dusk.webp",
+      "original": "/assets/tirumala/07-temple-dusk.png",
+      "srcSet": "/assets/tirumala/07-temple-dusk-640.webp 640w, /assets/tirumala/07-temple-dusk-1280.webp 1280w, /assets/tirumala/07-temple-dusk.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "objectPosition": "50% 45%",
+      "alt": "AI artistic reconstruction: temple entrance at dusk, inspired by Tirumala.",
+      "optional": false,
+      "verifiedGeometry": false
+    },
+    {
+      "id": "08-festival-procession",
+      "title": "Festival procession",
+      "src": "/assets/tirumala/08-festival-procession.webp",
+      "original": "/assets/tirumala/08-festival-procession.png",
+      "srcSet": "/assets/tirumala/08-festival-procession-640.webp 640w, /assets/tirumala/08-festival-procession-1280.webp 1280w, /assets/tirumala/08-festival-procession.webp 1672w",
+      "width": 1672,
+      "height": 941,
+      "objectPosition": "50% 45%",
+      "alt": "AI artistic reconstruction: festival procession, inspired by Tirumala.",
+      "optional": true,
+      "verifiedGeometry": false
+    }
+  ]
+}

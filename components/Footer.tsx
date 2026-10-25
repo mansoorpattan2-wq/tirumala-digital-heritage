@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import { SacredMark } from './Navigation';
+export default function Footer(){return <footer className="footer"><div className="footer-top"><Link href="/" className="brand"><SacredMark/><span>TIRUMALA<small>DIGITAL HERITAGE</small></span></Link><p>A journey through time, faith & architecture.</p><div><Link href="/gallery">Gallery</Link><Link href="/guide">Language guide</Link><Link href="/about">Sources & credits</Link></div></div><div className="footer-bottom"><span>An independent educational project. Not affiliated with TTD.</span><span>Made with reverence. Shared with curiosity.</span></div></footer>}

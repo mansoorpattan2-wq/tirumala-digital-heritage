@@ -1,0 +1,59 @@
+{
+  "ready": true,
+  "tracks": [
+    {
+      "id": "thomala",
+      "title": "Thomala · Floral ambience",
+      "src": "/audio/sevas/thomala_seva_original_ambience.wav",
+      "available": true,
+      "reason": null,
+      "caption": "Original synthesized instrumental ambience. Music only; no chanting or live temple recording.",
+      "license": "Original synthetic recordings created for this user; usable in their project. Not official TTD audio or traditional chants."
+    },
+    {
+      "id": "archana",
+      "title": "Archana · Contemplative ambience",
+      "src": "/audio/sevas/sahasranama_archana_original_ambience.wav",
+      "available": true,
+      "reason": null,
+      "caption": "Original synthesized instrumental ambience. Music only; no chanting or live temple recording.",
+      "license": "Original synthetic recordings created for this user; usable in their project. Not official TTD audio or traditional chants."
+    },
+    {
+      "id": "kalyanotsavam",
+      "title": "Kalyanotsavam · Celebratory ambience",
+      "src": "/audio/sevas/kalyanotsavam_original_ambience.wav",
+      "available": true,
+      "reason": null,
+      "caption": "Original synthesized instrumental ambience. Music only; no chanting or live temple recording.",
+      "license": "Original synthetic recordings created for this user; usable in their project. Not official TTD audio or traditional chants."
+    },
+    {
+      "id": "abhishekam",
+      "title": "Abhishekam · Gentle ambience",
+      "src": "/audio/sevas/abhishekam_original_ambience.wav",
+      "available": true,
+      "reason": null,
+      "caption": "Original synthesized instrumental ambience. Music only; no chanting or live temple recording.",
+      "license": "Original synthetic recordings created for this user; usable in their project. Not official TTD audio or traditional chants."
+    },
+    {
+      "id": "deepalankara",
+      "title": "Deepalankara · Lamplight ambience",
+      "src": "/audio/sevas/sahasra_deepalankara_original_ambience.wav",
+      "available": true,
+      "reason": null,
+      "caption": "Original synthesized instrumental ambience. Music only; no chanting or live temple recording.",
+      "license": "Original synthetic recordings created for this user; usable in their project. Not official TTD audio or traditional chants."
+    },
+    {
+      "id": "brahmotsavam",
+      "title": "Brahmotsavam · Festival ambience",
+      "src": "/audio/sevas/brahmotsavam_original_ambience.wav",
+      "available": true,
+      "reason": null,
+      "caption": "Original synthesized instrumental ambience. Music only; no chanting or live temple recording.",
+      "license": "Original synthetic recordings created for this user; usable in their project. Not official TTD audio or traditional chants."
+    }
+  ]
+}

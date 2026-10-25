@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+.sites-local/
+*.tsbuildinfo
+*.log
+test-results/
+.vercel/
+.openai/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+research/six-seva-audio-pack/audio/

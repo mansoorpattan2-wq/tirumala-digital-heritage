@@ -1,0 +1,38 @@
+{
+  "method": "Built-in image generation",
+  "basePrompt": "Use case: photorealistic-natural. Asset type: full-bleed landscape background for immersive pilgrimage website. Generate ONE standalone landscape photograph-like image, 16:9 composition, highest available detail. This is an AI artistic reconstruction inspired by Tirumala/Tirupati, not a survey, exact location record, or verified architectural reconstruction. Scene: SCENE. Cohesive series art direction: documentary travel photography, natural color and exposure, subtle warm highlights and forest greens, believable physically consistent light, authentic South Indian context, restrained atmospheric depth, tactile aged stone, unretouched human anatomy, realistic perspective, calm reverence. Wide composition with key subject inside central 65 percent to allow mobile cropping. Natural 28-35mm lens feeling, straight verticals, no fish-eye. Preserve recognizable Tirumala theme and built forms as far as possible, never add invented sacred interiors. No typography, watermarks, logos, UI, collage, frames, exaggerated HDR, excessive bloom, plastic CGI, levitating structures, fake inscriptions, oversized mountains, or fantasy architecture. Do not include image captions.",
+  "scenes": [
+    [
+      "01-seven-hills-dawn",
+      "At the foothills near Tirupati looking toward the forested Seshachalam hills at dawn, broad natural layered rocky ridgelines fading in humid mist, grounded South Indian vegetation, a real-scale pilgrim road entering the landscape. No temple perched unrealistically on a peak, no invented seven identical mountains. Quiet anticipation."
+    ],
+    [
+      "02-alipiri-ascent",
+      "Human eye-level view ascending an Alipiri-inspired covered pilgrim staircase through green hills, worn reddish steps, simple metal railings, utilitarian shelter canopy, small number of naturally proportioned South Indian pilgrims seen from behind in modest everyday pilgrimage clothing, soft morning light. No grand palace, no invented gateway as a centerpiece."
+    ],
+    [
+      "03-ghat-road",
+      "Human-height roadside view along the winding Tirupati to Tirumala ghat road, realistic hairpin curve, forested rocky Seshachalam slopes, simple safety barriers, soft humid sunlight, a distant ordinary bus at correct scale, natural green canopy, realistic asphalt, expansive layered hills."
+    ],
+    [
+      "04-tirumala-arrival",
+      "Pilgrim eye-level exterior approach in Tirumala hill town, broad stone-paved public pedestrian space, modest functional buildings and green wooded hills, white Dravidian temple entrance tower in the middle distance, natural people at realistic scale, late morning. Avoid fictional golden palace, giant deity statues, monumental fantasy architecture."
+    ],
+    [
+      "05-pushkarini",
+      "Swami Pushkarini-inspired sacred rectangular temple tank at Tirumala viewed from public bank, stone stepped edges, calm greenish water, traditional small white-pillared pavilion with modest tiered roof on platform in water, surrounding real-scale low buildings, wooded hills in background, afternoon warm sunlight. Photographic natural water reflections. No enormous golden floating palace, no invented connecting bridges."
+    ],
+    [
+      "06-temple-day",
+      "Sri Venkateswara Temple Tirumala-inspired exterior entrance frontal view from public approach at pilgrim eye level. Recognizable compact white richly sculpted Dravidian entrance gopuram with gold finials rising above low pale enclosure walls, visible entrance opening, honest gray stone paving and pilgrim railings, modest devotional crowd, realistic bright soft daylight. Preserve distinction between white entrance gopuram and inner gold Ananda Nilayam; do not expose or invent sanctum, do not place huge gold roof directly on white gateway. No fictional towers."
+    ],
+    [
+      "07-temple-dusk",
+      "Sri Venkateswara Temple Tirumala-inspired exterior public approach at blue hour. Compact richly carved white Dravidian entrance gopuram, gold finials, warm practical temple lights, low pale enclosure walls, dark indigo sky, sparse natural pilgrims, softly reflective stone paving. Photographic believable lighting, quiet devotional warmth. No neon rainbow lights, fantasy temple, invented sanctum or aerial drone viewpoint."
+    ],
+    [
+      "08-festival-procession",
+      "Respectful artistic reconstruction inspired by Tirumala Brahmotsavam, Sri Malayappa Swamy utsava procession on a golden Garuda vahanam outdoors in a temple street, intricate small-scale gold ornaments and flower garlands, traditional ceremonial umbrellas, priests and devotees respectfully present, nighttime practical warm lights, realistic press-photo perspective from street edge, deity and human scale plausible. Processional image only, never claim the main sanctum deity, no invented ritual actions, no fantasy giant idol."
+    ]
+  ]
+}

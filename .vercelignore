@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+test-results
+.git
+.openai
+*.tsbuildinfo
+*.log
+.env*
+research/six-seva-audio-pack/audio

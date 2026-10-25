@@ -1,0 +1,52 @@
+import { chromium, expect } from '@playwright/test';
+import assert from 'node:assert/strict';
+import { mkdir, writeFile } from 'node:fs/promises';
+const base=process.env.TEST_BASE_URL||'http://127.0.0.1:3000';
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+const errors=[];page.on('pageerror',error=>errors.push(error.message));
+await mkdir('test-results',{recursive:true});
+try {
+  await page.goto(base+'/darshan/',{waitUntil:'networkidle'});
+  await expect(page.locator('.shrine-room')).toHaveAttribute('data-loaded','true');
+  await page.getByRole('button',{name:'Open the shrine',exact:true}).click();
+  await expect(page.locator('.shrine-room')).toHaveAttribute('data-open','true');
+  await expect(page.locator('.shrine-door-left')).toHaveCSS('opacity','0.15');
+  await page.getByRole('button',{name:'Offer harathi',exact:true}).click();
+  await expect(page.locator('.harathi-foreground img')).toBeVisible();
+  await page.locator('.harathi-foreground img').evaluate(image=>image.decode());
+  await page.screenshot({path:'test-results/shrine-desktop.png'});
+  await page.getByRole('button',{name:'End harathi',exact:true}).click();
+  await page.getByRole('button',{name:'02 Twilight & lamplight',exact:true}).click();
+  await expect(page.locator('.shrine-deity')).toHaveAttribute('src',/twilight/);
+  await expect(page.locator('.shrine-room')).toHaveAttribute('data-loaded','true');
+  await page.getByRole('button',{name:'Pause atmosphere',exact:true}).click();
+  await expect(page.locator('.shrine-page')).toHaveAttribute('data-motion','false');
+  await page.getByRole('button',{name:'Close shrine doors',exact:true}).click();
+  await expect(page.locator('.shrine-room')).toHaveAttribute('data-open','false');
+  await page.getByRole('button',{name:'View without the reveal',exact:true}).click();
+  await expect(page.locator('.shrine-room')).toHaveAttribute('data-open','true');
+  for(const viewport of [{width:390,height:844},{width:320,height:568},{width:844,height:390}]) {
+    await page.setViewportSize(viewport);
+    await page.locator('h1').click();
+    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'no shrine overflow');
+    if(viewport.width===390)await page.screenshot({path:'test-results/shrine-mobile.png',fullPage:true});
+  }
+  const touch=await browser.newContext({isMobile:true,hasTouch:true,viewport:{width:390,height:844}});
+  const mobile=await touch.newPage();await mobile.goto(base+'/darshan/');
+  await mobile.getByRole('button',{name:'Open the shrine',exact:true}).tap();
+  assert.ok(await mobile.locator('.pointer-touch').evaluateAll(nodes=>nodes.some(node=>node.getAnimations().length>0)),'touch ripple animates');
+  await touch.close();
+  await page.setViewportSize({width:1440,height:1000});
+  await page.mouse.move(500,200);await page.mouse.move(900,300,{steps:10});
+  assert.ok(await page.locator('.pointer-spark').evaluateAll(nodes=>nodes.some(node=>node.getAnimations().some(a=>a.playState==='running'))),'moving pointer creates trail');
+  await page.waitForTimeout(750);
+  assert.ok(await page.locator('.pointer-spark').evaluateAll(nodes=>nodes.every(node=>node.getAnimations().every(a=>a.playState!=='running'))),'trail settles when pointer stops');
+  await page.emulateMedia({reducedMotion:'reduce'});
+  await expect(page.locator('.shrine-page')).toHaveAttribute('data-motion','false');
+  await expect(page.getByRole('button',{name:'Reduced motion',exact:true})).toBeDisabled();
+  await expect(page.locator('.pointer-trail')).toHaveAttribute('data-enabled','false');
+  assert.deepEqual(errors,[]);
+  await writeFile('test-results/shrine-results.json',JSON.stringify({doors:true,artworkSwitch:true,harathi:true,motionControl:true,reducedMotion:true,touchRipple:true,pointerTrailSettles:true,viewports:4,errors},null,2));
+  console.log('PASS: shrine reveal, both artworks, harathi, responsive layouts, touch ripple, moving pointer trail and reduced motion.');
+} finally {await browser.close();}

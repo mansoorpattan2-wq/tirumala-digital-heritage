@@ -1,0 +1,19 @@
+{
+  "ready": true,
+  "tracks": [
+    {
+      "id": "venkateswara-stotram",
+      "title": "Venkateswara Stotram",
+      "src": "/audio/venkateswara-stotram.mp3",
+      "available": true,
+      "reason": null
+    },
+    {
+      "id": "veyi-namala-vada",
+      "title": "Veyi Namala Vada",
+      "src": "/audio/veyi-namala-vada.mp3",
+      "available": true,
+      "reason": null
+    }
+  ]
+}

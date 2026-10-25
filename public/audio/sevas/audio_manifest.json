@@ -1,0 +1,14 @@
+{
+  "license": "Original synthetic recordings created for this user; usable in their project. Not official TTD audio or traditional chants.",
+  "sample_rate": 22050,
+  "duration_seconds_each": 16,
+  "loop_note": "Short scene cues with fade in/out; do not claim seamless looping.",
+  "files": {
+    "thomala_seva": "audio/thomala_seva_original_ambience.wav",
+    "sahasranama_archana": "audio/sahasranama_archana_original_ambience.wav",
+    "kalyanotsavam": "audio/kalyanotsavam_original_ambience.wav",
+    "abhishekam": "audio/abhishekam_original_ambience.wav",
+    "sahasra_deepalankara": "audio/sahasra_deepalankara_original_ambience.wav",
+    "brahmotsavam": "audio/brahmotsavam_original_ambience.wav"
+  }
+}

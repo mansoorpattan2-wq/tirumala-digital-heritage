@@ -1,0 +1,71 @@
+/* Granite, lime plaster, vermilion and aged brass. */
+:root{--bg:#191410;--deep:#100d0b;--forest:#352820;--gold:#d2ad70;--sand:#f5e7ce;--ivory:#fbf4e7;--muted:#c0b3a1;--line:rgba(210,173,112,.23);--temple-red:#7b2e26;--paper:#f2ebdf;--paper-ink:#38291f;--paper-muted:#746455}
+body{background:var(--bg);text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+.site-header{background:linear-gradient(180deg,rgba(17,12,9,.85),rgba(17,12,9,.12));border-bottom-color:#ddc8a829}
+.button{background:#d7b374;border-color:#d7b374;color:#271c13;min-height:48px}
+.button:hover{background:#e8c991;transform:translateY(-2px)}
+.button.outline:hover{background:#d2ad7017}
+.mobile-nav{background:#1b130f}.icon-button{min-width:44px;min-height:44px}
+.intro-section,.architecture-feature,.explore-section{background:var(--paper);color:var(--paper-ink);max-width:none}
+.intro-section p,.architecture-feature p,.explore-section p{color:var(--paper-muted)}
+.intro-section h2 em,.architecture-feature h2 em,.explore-section h2 em{color:var(--temple-red)}
+.intro-section .eyebrow,.architecture-feature .eyebrow,.explore-section .eyebrow{color:#8b4a30}
+.intro-section .text-link,.architecture-feature .text-link{color:var(--temple-red)}
+.values-row,.mini-facts,.editorial-links a{border-color:#563c2729}
+.values-row svg,.editorial-num,.editorial-links svg{color:#9a6235}
+.mini-facts span{color:#766552}.architecture-copy .button.outline{border-color:#8d553c;color:#733c2b}
+.chapter-section{background:#3d201c}.title-row>p,.route-preview p{color:#d0bfb0}
+.route-preview li,.optional-festival-link{border-color:#d2ad7033}
+.route-preview a{transition:padding .3s ease,color .3s ease}
+.route-preview a:hover{padding-left:12px}
+.threshold-preview{background:#211a14}.pilgrim-preview{background:#372720}
+.footer{background:#100d0b}.footer p,.footer-bottom,.footer-top>div{color:#bcae98}
+.page-hero{background:var(--paper);color:var(--paper-ink);border-bottom-color:#76513433}
+.page-hero .eyebrow{color:#894b30}.page-hero h1 em{color:var(--temple-red)}.page-hero .lead{color:var(--paper-muted)}
+.page-body{background:#1c1612}.page-hero{padding-top:150px}
+body:has(.page-hero) .site-header{background:#211710;color:var(--sand)}
+.story-block,.architecture-glossary article,.language-story{background:#2a211a}
+.filter-tabs button{color:#c7bba9;border-color:#a989653b}.filter-tabs button[aria-pressed=true]{background:var(--gold);color:#291e14}
+.provenance-banner{background:#35241a;border-color:#9c784647;color:#e4d3b9}
+.page-cta{background:#34271d}.scene-notice{background:#211710}
+.temple-hero.home-pilgrimage{grid-template-columns:1fr 1fr;gap:0;padding:96px 0 60px;min-height:min(940px,100svh);background:#19120e;overflow:hidden}
+.temple-hero .home-pilgrimage-copy{padding:60px 8% 50px 15%;position:relative;z-index:2}
+.temple-hero .eyebrow{font-size:9px;color:#d5b886;letter-spacing:2.7px}
+.hero-small-rule{display:block;width:45px;height:1px;background:#bc8656;margin-top:30px}
+.temple-hero h1{font-size:clamp(54px,5.4vw,87px);line-height:1.01;letter-spacing:-2.3px;margin:30px 0;color:#f3e7d4}
+.temple-hero h1 em{color:#e0b77e;display:block}
+.temple-hero .home-pilgrimage-copy>p:not(.eyebrow){font-size:13px;max-width:370px;color:#c0af98;line-height:2}
+.temple-hero-actions{margin-top:28px}.temple-hero .button{margin:0 0 10px}.temple-hero .text-link{color:#e0c49c;font-size:11px}
+.temple-hero .home-pilgrimage-meta{font-size:8px;letter-spacing:2.2px;color:#a99376;margin-top:30px}
+.temple-hero .hero-devotional-art{position:absolute;inset:0 0 60px 49%;overflow:hidden;background:#24180d;margin:0}
+.temple-hero .hero-devotional-art>img{height:100%;width:100%;object-fit:cover;object-position:50% 32%;aspect-ratio:auto}
+.hero-devotional-art:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#19120e,transparent 22%),linear-gradient(0deg,#19120e 0%,transparent 20%);pointer-events:none}
+.hero-art-light{position:absolute;inset:0;background:radial-gradient(ellipse at 60% 38%,#e9b45716,transparent 60%);pointer-events:none;animation:hero-light 8s ease-in-out 2 alternate}
+.temple-hero .hero-devotional-art figcaption{position:absolute;bottom:16px;right:6%;left:20%;z-index:1;font-size:9px;color:#f2dfb7;letter-spacing:.7px}
+.temple-hero .hero-devotional-art figcaption span{color:#bba588;font-size:8px}
+.temple-hero .home-discover{position:absolute;bottom:0;left:0;right:0;padding:18px 7.5%;min-height:60px;border-top:1px solid #a687573b;font-size:10px;color:#d6c7b1;z-index:3}
+.home-discover>span{margin-left:auto;color:#a38d72;letter-spacing:2px;font-size:7px}
+.shrine-teaser{background:#e7dece;display:grid;grid-template-columns:.7fr 1fr;gap:10%;align-items:center;color:var(--paper-ink);padding-top:85px;padding-bottom:85px;max-width:none}
+.shrine-teaser figure{margin:0;max-width:330px;justify-self:end;position:relative}
+.shrine-teaser figure:before{content:'';position:absolute;inset:15px -15px -15px 15px;border:1px solid #9d7a484d;pointer-events:none}
+.shrine-teaser img{aspect-ratio:2/3;object-fit:contain;position:relative;width:100%;height:auto}
+.shrine-teaser figcaption{position:relative;font-size:9px;color:#75634d;padding:9px 0}
+.shrine-teaser h2{font-size:clamp(42px,4vw,62px);margin:22px 0}.shrine-teaser h2 em{color:var(--temple-red)}
+.shrine-teaser .eyebrow{color:#8a4a31}.shrine-teaser p:not(.eyebrow){max-width:410px;font-size:13px;line-height:1.9;color:#73614c;margin-bottom:26px}
+.shrine-teaser .button{background:var(--temple-red);border-color:var(--temple-red);color:#f7ead4}
+.shrine-teaser .button:hover{background:#954535}
+.pilgrimage{--paper:#f4eee3;--ink:#3f2d23;--quiet:#776252;--accent:#8f4b2d}
+.pilgrimage-entry .button{background:#7b2e26;border-color:#7b2e26}.pilgrimage-entry h1 em,.pilgrimage-end h2 em{color:#934e30}
+.pilgrimage-image-frame{background:#e7dfd1}.pilgrimage-navigation>button:hover:enabled{background:#e7dac8}
+.pilgrimage-topbar,.pilgrimage-navigation,.experience-controls,.entry-foot{border-color:#80533430}
+.scene-heading p,.pilgrimage .eyebrow{color:#8a492e}.pilgrimage-scene figcaption{color:#76634e}
+.cursor-companion-ring{border-color:#d4a663}.pointer-trail{position:fixed;inset:0;pointer-events:none;z-index:145;overflow:hidden}
+.pointer-spark{position:absolute;left:0;top:0;width:5px;height:5px;border-radius:50%;background:#ddb267;box-shadow:0 0 7px #e7b8666b;opacity:0;will-change:transform,opacity}
+.pointer-touch{position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;border:1px solid #bd8c4f;opacity:0;will-change:transform,opacity}
+.pointer-trail[data-enabled=false]{display:none}
+@keyframes hero-light{from{opacity:.25}to{opacity:.9}}
+@media(min-width:1800px){.temple-hero .home-pilgrimage-copy{padding-left:max(15%,calc((100vw - 1480px)/2))}}
+@media(max-width:1100px){.desktop-nav{gap:18px}.temple-hero h1{font-size:65px}.temple-hero .home-pilgrimage-copy{padding-left:12%;padding-right:4%}.temple-hero .hero-devotional-art{left:47%}.shrine-teaser{gap:8%}}
+@media(max-width:760px){.temple-hero.home-pilgrimage{display:flex;flex-direction:column;align-items:stretch;padding:105px 7% 62px;min-height:0}.temple-hero .home-pilgrimage-copy{padding:20px 0 30px}.temple-hero h1{font-size:clamp(48px,9.7vw,68px);margin:22px 0;max-width:520px}.hero-small-rule{margin-top:20px}.temple-hero .home-pilgrimage-copy>p:not(.eyebrow){max-width:450px}.temple-hero .hero-devotional-art{position:relative;inset:auto;height:min(115vw,600px);margin:0 -8.15%;width:116.3%}.temple-hero .hero-devotional-art>img{object-position:50% 28%}.hero-devotional-art:after{background:linear-gradient(0deg,#19120e,transparent 18%),linear-gradient(180deg,#19120e,transparent 12%)}.temple-hero .hero-devotional-art figcaption{left:7%;right:7%;bottom:8px}.temple-hero .home-pilgrimage-meta{margin:18px 0 0}.temple-hero .home-discover{font-size:9px;padding:18px 7%}.home-discover>span{display:none}.shrine-teaser{grid-template-columns:1fr;gap:35px;padding-top:55px;padding-bottom:55px}.shrine-teaser figure{max-width:270px;justify-self:center;order:2}.shrine-teaser h2{font-size:43px}.shrine-teaser p:not(.eyebrow){font-size:13px}.page-hero{padding-top:125px}}
+@media(prefers-reduced-motion:reduce){.hero-art-light{animation:none}.pointer-trail{display:none}.route-preview a:hover{padding-left:0}}
+@media(forced-colors:active){.pointer-trail{display:none}}
