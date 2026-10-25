@@ -6,7 +6,7 @@ import manifest from '@/lib/devotional-audio-manifest.json';
 import sevaManifest from '@/lib/seva-audio-manifest.json';
 
 type AudioState = { ready:boolean; index:number; volume:number; muted:boolean; playing:boolean; status:string; message:string };
-type AudioContextValue = { state:AudioState; tracks:typeof manifest.tracks; enter:()=>void; enable:()=>void; leave:()=>void; pause:()=>void; next:()=>void; previous:()=>void; selectTrack:(index:number)=>void; mute:()=>void; volume:(value:number)=>void };
+type AudioContextValue = { state:AudioState; tracks:typeof manifest.tracks; enter:()=>void; enable:()=>void; leave:()=>void; pause:()=>void; next:()=>void; previous:()=>void; selectTrack:(index:number)=>void; mute:()=>void; volume:(value:number)=>void; duck:(gain:number)=>void };
 const initial:AudioState={ready:manifest.ready,index:0,volume:.35,muted:false,playing:false,status:manifest.ready?'idle':'unavailable',message:''};
 const AudioContext=createContext<AudioContextValue|null>(null);
 const preferenceKey='tirumala-devotional-audio';
@@ -36,7 +36,7 @@ export function DevotionalAudioProvider({children}:{children:React.ReactNode}) {
     return()=>{unsubscribe();window.removeEventListener('pagehide',exit);player.dispose();controller.current=null;};
   },[]);
   useEffect(()=>{if(previousPath.current===pathname)return;previousPath.current=pathname;void controller.current?.leave();},[pathname]);
-  const value:AudioContextValue={state:{...state,index:Math.min(state.index,tracks.length-1),ready:tracks.every(track=>track.available)},tracks,enter:()=>{void prepare()?.enter();},enable:()=>{const player=prepare();if(!player)return;player.setMuted(false);void player.enter();},leave:()=>{void controller.current?.leave();},pause:()=>controller.current?.pause(),next:()=>{void prepare()?.changeTrack(1);},previous:()=>{void prepare()?.changeTrack(-1);},selectTrack:index=>{void prepare()?.selectTrack(index);},mute:()=>prepare()?.toggleMute(),volume:value=>prepare()?.setVolume(value)};
+  const value:AudioContextValue={state:{...state,index:Math.min(state.index,tracks.length-1),ready:tracks.every(track=>track.available)},tracks,enter:()=>{void prepare()?.enter();},enable:()=>{const player=prepare();if(!player)return;player.setMuted(false);void player.enter();},leave:()=>{void controller.current?.leave();},pause:()=>controller.current?.pause(),next:()=>{void prepare()?.changeTrack(1);},previous:()=>{void prepare()?.changeTrack(-1);},selectTrack:index=>{void prepare()?.selectTrack(index);},mute:()=>prepare()?.toggleMute(),volume:value=>prepare()?.setVolume(value),duck:gain=>controller.current?.setGain(gain)};
   return <AudioContext.Provider value={value}>{children}</AudioContext.Provider>;
 }
 export function useDevotionalAudio(){const value=useContext(AudioContext);if(!value)throw new Error('Devotional audio requires its provider.');return value;}
